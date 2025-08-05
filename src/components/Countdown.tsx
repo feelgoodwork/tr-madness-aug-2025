@@ -41,7 +41,7 @@ const Countdown = ({ targetDate }: CountdownProps) => {
               {value.toString().padStart(2, '0')}
             </div>
           </div>
-          <div className="text-xs md:text-sm text-secondary mt-2 capitalize">
+          <div className="text-xs md:text-sm text-muted-foreground mt-2 capitalize font-medium">
             {unit}
           </div>
         </div>
