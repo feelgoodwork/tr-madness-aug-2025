@@ -9,6 +9,7 @@ import TeamSection from '@/components/TeamSection';
 import Solution from '@/components/Solution';
 import IncludedFeatures from '@/components/IncludedFeatures';
 import FeaturesSection from '@/components/FeaturesSection';
+import tradingScreensBg from '@/assets/trading-screens-bg.jpg';
 
 const Index = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -150,8 +151,19 @@ const Index = () => {
       </section>
 
       {/* Results Section */}
-      <section className="py-20 bg-muted/20">
-        <div className="container mx-auto px-6 max-w-6xl">
+      <section 
+        className="py-20 bg-muted/20 relative"
+        style={{
+          backgroundImage: `url(${tradingScreensBg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* Muted overlay to ensure text readability */}
+        <div className="absolute inset-0 bg-background/85 backdrop-blur-[1px]"></div>
+        
+        <div className="container mx-auto px-6 max-w-6xl relative z-10">
           <TradingResults />
         </div>
       </section>
