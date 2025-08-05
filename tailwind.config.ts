@@ -80,9 +80,9 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ["Arial", "sans-serif"],
-				roboto: ["Roboto", "Arial", "sans-serif"],
-				helvetica: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+				'inter': ['Inter', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
+				'sans': ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
