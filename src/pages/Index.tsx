@@ -82,7 +82,7 @@ const Index = () => {
               <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
             <div className="text-sm text-muted-foreground">
-              Join 5,847+ profitable traders • 30-day guarantee
+              Over $100K made in Madness Weeks over ten years
             </div>
           </div>
         </div>
