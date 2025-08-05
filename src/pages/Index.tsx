@@ -73,7 +73,7 @@ const Index = () => {
 
           {/* Countdown */}
           <div className="mb-8">
-            <h3 className="text-2xl font-helvetica font-bold mb-4 text-warning">The Next Income Madness Week Begins In:</h3>
+            <h3 className="text-2xl font-helvetica font-bold mb-4 text-primary">The Next Income Madness Week Begins In:</h3>
             <Countdown targetDate={countdownDate} />
           </div>
 
@@ -90,7 +90,7 @@ const Index = () => {
       </section>
 
       {/* Results Section */}
-      <section className="py-20 px-6">
+      <section className="py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <TradingResults />
         </div>
@@ -98,7 +98,7 @@ const Index = () => {
 
       {/* Problem Awareness Section */}
       <section 
-        className="py-20 px-6 bg-cover bg-center bg-no-repeat relative"
+        className="py-32 px-6 bg-cover bg-center bg-no-repeat relative"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-white/98"></div>
@@ -108,7 +108,7 @@ const Index = () => {
       </section>
 
       {/* Solution Section */}
-      <section className="py-20 px-6">
+      <section className="py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <Solution />
         </div>
@@ -126,7 +126,7 @@ const Index = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-accent/5 to-primary/5">
+      <section className="py-32 px-6 bg-gradient-to-r from-accent/5 to-primary/5">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-roboto font-bold mb-6 text-primary">
             Ready to Transform Your Trading Results?
