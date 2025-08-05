@@ -9,7 +9,7 @@ const IncludedFeatures = () => {
       bullets: [
         "2-3 trade recommendations daily",
         "Complete trade details included",
-        "Live sessions at 12:30pm ET",
+        "Live sessions at 12 Noon EST",
         "30-minute focused sessions"
       ]
     },
