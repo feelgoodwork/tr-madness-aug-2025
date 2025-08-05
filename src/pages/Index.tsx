@@ -6,7 +6,6 @@ import { Play, ArrowRight, MapPin, Calendar, Clock } from 'lucide-react';
 import Countdown from '@/components/Countdown';
 import TradingResults from '@/components/TradingResults';
 import TeamSection from '@/components/TeamSection';
-import ProblemAwareness from '@/components/ProblemAwareness';
 import Solution from '@/components/Solution';
 import IncludedFeatures from '@/components/IncludedFeatures';
 
@@ -170,13 +169,6 @@ const Index = () => {
               )}
             </CardContent>
           </Card>
-        </div>
-      </section>
-
-      {/* Problem Awareness Section */}
-      <section className="py-32 px-6">
-        <div className="max-w-6xl mx-auto">
-          <ProblemAwareness />
         </div>
       </section>
 
