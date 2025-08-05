@@ -30,16 +30,16 @@ const Index = () => {
           </Badge>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Stop Losing Money.
+            How Fast Could You
             <br />
-            <span className="text-success">Start Making $1,800+</span>
+            <span className="text-success">Earn $2,500</span>
             <br />
-            Per Week Trading
+            Trading Options?
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto">
-            Discover the exact system that generated <strong className="text-success">$1,821 in 6 days</strong> 
-            with an 85% win rate. No more guessing, no more losing trades.
+            Join our live Income Madness Week (Aug 11-15) and discover the exact system that generated <strong className="text-success">$1,821 in 6 days</strong> 
+            with an 85% win rate. Get in before the week starts!
           </p>
 
           {/* Video Section */}
@@ -72,7 +72,7 @@ const Index = () => {
 
           {/* Countdown */}
           <div className="mb-8">
-            <h3 className="text-2xl font-bold mb-4 text-warning">⚠️ Offer Expires In:</h3>
+            <h3 className="text-2xl font-bold mb-4 text-warning">The Next Income Madness Week Begins In:</h3>
             <Countdown targetDate={countdownDate} />
           </div>
 
