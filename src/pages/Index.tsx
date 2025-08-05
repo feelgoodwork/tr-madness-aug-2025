@@ -160,7 +160,7 @@ const Index = () => {
             {/* Compelling Headline */}
             <div className="text-center mb-12">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                Ready to Generate Consistent Income?<br />Join the Next Madness Week
+                It's like 'drive-thru options trading' with a 5-Star Experience.
               </h2>
             </div>
 
