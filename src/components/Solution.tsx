@@ -85,9 +85,6 @@ const Solution = () => {
           
           <div className="text-center pt-6">
             <div className="space-y-4">
-              <div className="text-3xl font-bold text-success">
-                Limited Time: 50% Off
-              </div>
               <div className="text-lg">
                 <span className="text-muted-foreground line-through">$297</span>
                 <span className="text-2xl font-bold text-success ml-4">$197</span>
