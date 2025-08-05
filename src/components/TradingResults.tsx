@@ -33,10 +33,7 @@ const TradingResults = () => {
   return (
     <div className="space-y-6">
       <div className="text-center space-y-4">
-        <h2 className="text-3xl md:text-4xl font-bold">
-          Income Madness Weekly Results Summary
-        </h2>
-        <p className="text-xl text-muted-foreground">
+        <p className="text-3xl md:text-4xl font-roboto font-bold text-primary">
           Real results from multiple Income Madness weeks over the years
         </p>
       </div>
