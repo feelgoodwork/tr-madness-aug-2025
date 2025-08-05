@@ -25,9 +25,9 @@ const Index = () => {
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-white/95"></div>
-        <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-          <Badge variant="destructive" className="mb-6 text-base px-4 py-2">
-            🔥 REGISTER NOW - INCOME MADNESS WEEK EVENT
+        <div className="relative z-10 max-w-6xl mx-auto px-6 text-center pt-20">
+          <Badge variant="destructive" className="mb-6 text-base px-4 py-2 animate-pulse">
+            🔥 REGISTER NOW
           </Badge>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-roboto font-bold mb-6 leading-tight text-primary">
@@ -39,8 +39,8 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-secondary mb-8 max-w-4xl mx-auto">
-            Join our live Income Madness Week (Aug 11-15) and discover the exact system that generated <strong className="text-success">$1,821 in 6 days</strong> 
-            with an 85% win rate. Get in before the week starts!
+            <strong>Aug 11-15 Income Made Week Live Trading</strong><br />
+            Get in now and trade with us daily
           </p>
 
           {/* Video Section */}
