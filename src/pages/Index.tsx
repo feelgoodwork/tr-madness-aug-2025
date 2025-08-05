@@ -76,6 +76,12 @@ const Index = () => {
             </div>
           </div>
 
+          {/* Register Button */}
+          <div className="text-center mb-8">
+            <Button className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
+              REGISTER NOW
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -84,7 +90,7 @@ const Index = () => {
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Don't want to trade daily? Try our Madness Week Method
+              Daily trading too much?<br />Try our Madness Week
             </h2>
           </div>
           
