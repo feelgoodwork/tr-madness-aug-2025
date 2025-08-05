@@ -142,22 +142,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Solution Section */}
-      <section className="py-20 bg-muted/20">
-        <div className="container mx-auto px-6 max-w-6xl">
-          <Solution />
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-20 bg-white">
-        <IncludedFeatures />
-      </section>
-
       {/* Team Section */}
       <section className="py-20 bg-muted/20">
         <TeamSection />
       </section>
+
 
       {/* Final CTA Section */}
       <section className="py-16 bg-white">
