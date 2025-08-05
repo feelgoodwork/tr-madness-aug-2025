@@ -176,9 +176,6 @@ const Index = () => {
               <Button className="bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
                 REGISTER NOW
               </Button>
-              <p className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
-                <u>Or join from home as a virtual attendee</u>
-              </p>
             </div>
             
             {/* Bottom Countdown */}
