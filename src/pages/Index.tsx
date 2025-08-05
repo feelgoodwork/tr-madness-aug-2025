@@ -26,7 +26,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-background/80"></div>
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
           <Badge variant="destructive" className="mb-6 text-sm px-4 py-2">
-            🔥 LIMITED TIME OFFER ENDS SOON
+            🔥 REGISTER NOW - INCOME MADNESS WEEK EVENT
           </Badge>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
@@ -78,7 +78,7 @@ const Index = () => {
 
           <div className="space-y-4">
             <Button variant="cta" size="lg" className="text-xl px-8 py-6">
-              Get Instant Access Now
+              Join Income Madness Week
               <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
             <div className="text-sm text-muted-foreground">
