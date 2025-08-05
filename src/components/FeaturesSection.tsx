@@ -7,9 +7,9 @@ const FeaturesSection = () => {
   const features = [
     {
       title: "4 Live Trading Webinars",
-      description: "Each day during the Income Madness workshop, you'll get 2 to 3 trade recommendations with complete details so you can immediately place trades with us. We'll trade live each day at 12:30pm Eastern Time. Live trading sessions run about 30 minutes.",
+      description: "Each day during the Income Madness workshop, you'll get 2 to 3 trade recommendations with complete details so you can immediately place trades with us. We'll trade live each day at 12:00pm Eastern Time. Live trading sessions run about 30 minutes.",
       image: liveWebinarsImage,
-      additionalInfo: "We'll trade live each day at 12:30pm Eastern Time. Live trading sessions run about 30 minutes."
+      additionalInfo: "We'll trade live each day at 12:00pm Eastern Time. Live trading sessions run about 30 minutes."
     },
     {
       title: "Email and SMS Text Alerts",
