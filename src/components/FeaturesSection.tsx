@@ -104,7 +104,7 @@ const FeaturesSection = () => {
             
             <Button 
               className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200 w-full"
-              onClick={() => window.open('https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right', '_blank')}
+              onClick={() => window.location.href = 'https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right'}
             >
               REGISTER NOW
             </Button>
