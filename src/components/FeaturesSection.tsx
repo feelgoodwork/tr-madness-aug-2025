@@ -1,4 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import liveWebinarsImage from '@/assets/live-trading-webinars.jpg';
 import emailAlertsImage from '@/assets/email-sms-alerts.jpg';
 import membersWebsiteImage from '@/assets/private-members-website.jpg';
@@ -91,9 +92,24 @@ const FeaturesSection = () => {
 
         {/* Footer CTA */}
         <div className="text-center">
-          <h3 className="text-3xl md:text-4xl font-bold text-success">
+          <h3 className="text-3xl md:text-4xl font-bold text-success mb-12">
             Save $100 When You Reserve Your Income Madness Seat Today!
           </h3>
+          
+          {/* Pricing Section */}
+          <div className="bg-card border border-border rounded-xl p-8 max-w-md mx-auto shadow-lg">
+            <p className="text-sm text-muted-foreground mb-2">Regular Price: $297</p>
+            <div className="text-6xl md:text-7xl font-bold text-success mb-2">$197</div>
+            <p className="text-lg text-muted-foreground mb-6">One time non recurring price</p>
+            
+            <Button 
+              className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200 w-full"
+              onClick={() => window.open('https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right', '_blank')}
+            >
+              REGISTER NOW
+            </Button>
+            <p className="text-sm text-muted-foreground mt-4">Income Madness Week Starts Monday Aug. 11</p>
+          </div>
         </div>
       </div>
     </section>
