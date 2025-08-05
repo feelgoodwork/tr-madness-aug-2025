@@ -102,12 +102,12 @@ const FeaturesSection = () => {
             <div className="text-6xl md:text-7xl font-bold text-success mb-2">$197</div>
             <p className="text-lg text-muted-foreground mb-6">One time non recurring price</p>
             
-            <Button 
-              className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200 w-full"
-              onClick={() => window.location.href = 'https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right'}
+            <a 
+              href="https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right"
+              className="inline-block bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center no-underline"
             >
               REGISTER NOW
-            </Button>
+            </a>
             <p className="text-sm text-muted-foreground mt-4">Income Madness Week Starts Monday Aug. 11</p>
           </div>
         </div>

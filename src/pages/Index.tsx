@@ -78,12 +78,12 @@ const Index = () => {
 
           {/* Register Button */}
           <div className="text-center mb-8">
-            <Button 
-              className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
-              onClick={() => window.location.href = 'https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right'}
+            <a 
+              href="https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right"
+              className="inline-block bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-center no-underline"
             >
               REGISTER NOW
-            </Button>
+            </a>
             <p className="text-sm text-muted-foreground mt-2">Income Madness Week Starts Monday Aug. 11</p>
           </div>
         </div>
@@ -133,12 +133,12 @@ const Index = () => {
             <Countdown targetDate={countdownDate} />
             
             <div className="mt-8 space-y-4">
-              <Button 
-                className="bg-primary hover:bg-primary/90 text-white text-lg px-12 py-4 rounded-lg font-semibold"
-                onClick={() => window.location.href = 'https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right'}
+              <a 
+                href="https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right"
+                className="inline-block bg-primary hover:bg-primary/90 text-white text-lg px-12 py-4 rounded-lg font-semibold text-center no-underline"
               >
                 Join Income Madness Week →
-              </Button>
+              </a>
               <p className="text-sm text-muted-foreground">Income Madness Week Starts Monday Aug. 11</p>
               
               <p className="text-sm text-muted-foreground">
@@ -185,12 +185,12 @@ const Index = () => {
 
             {/* Final CTA */}
             <div className="space-y-4">
-              <Button 
-                className="bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
-                onClick={() => window.location.href = 'https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right'}
+              <a 
+                href="https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right"
+                className="inline-block bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-center no-underline"
               >
                 REGISTER NOW
-              </Button>
+              </a>
               <p className="text-sm text-muted-foreground">Income Madness Week Starts Monday Aug. 11</p>
             </div>
             
