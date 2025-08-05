@@ -36,7 +36,7 @@ const Countdown = ({ targetDate }: CountdownProps) => {
     <div className="flex items-center justify-center gap-4 md:gap-8">
       {Object.entries(timeLeft).map(([unit, value]) => (
         <div key={unit} className="text-center">
-          <div className="bg-white border border-primary/20 rounded-lg p-3 md:p-6 shadow-lg">
+          <div className="bg-card border border-border rounded-lg p-3 md:p-6 shadow-lg">
             <div className="text-2xl md:text-4xl font-bold text-primary font-mono">
               {value.toString().padStart(2, '0')}
             </div>

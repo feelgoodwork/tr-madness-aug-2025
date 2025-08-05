@@ -50,27 +50,27 @@ const Index = () => {
 
           {/* Event Details Cards */}
           <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
-            <div className="bg-white border border-border rounded-xl p-6 shadow-sm">
+            <div className="bg-card border border-border rounded-xl p-6 shadow-sm">
               <div className="text-success mb-4">
                 <MapPin className="w-8 h-8 mx-auto" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Virtual Event</h3>
+              <h3 className="text-lg font-semibold mb-2 text-card-foreground">Virtual Event</h3>
               <p className="text-sm text-muted-foreground">Trade from anywhere</p>
             </div>
 
-            <div className="bg-white border border-border rounded-xl p-6 shadow-sm">
+            <div className="bg-card border border-border rounded-xl p-6 shadow-sm">
               <div className="text-success mb-4">
                 <Calendar className="w-8 h-8 mx-auto" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">August 11-15</h3>
+              <h3 className="text-lg font-semibold mb-2 text-card-foreground">August 11-15</h3>
               <p className="text-sm text-muted-foreground">5 days of live trading</p>
             </div>
 
-            <div className="bg-white border border-border rounded-xl p-6 shadow-sm">
+            <div className="bg-card border border-border rounded-xl p-6 shadow-sm">
               <div className="text-success mb-4">
                 <Clock className="w-8 h-8 mx-auto" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Daily Sessions</h3>
+              <h3 className="text-lg font-semibold mb-2 text-card-foreground">Daily Sessions</h3>
               <p className="text-sm text-muted-foreground">Noon ET</p>
             </div>
           </div>
@@ -85,10 +85,10 @@ const Index = () => {
       </section>
 
       {/* Video Section - Moved up */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-foreground">
               Daily trading too much?<br />Try our Madness Week
             </h2>
           </div>
@@ -104,14 +104,14 @@ const Index = () => {
                     <div className="w-20 h-20 bg-success rounded-full flex items-center justify-center mb-6 mx-auto group-hover:scale-105 transition-transform duration-300 shadow-lg">
                       <Play className="w-8 h-8 text-white ml-1" fill="currentColor" />
                     </div>
-                    <h3 className="text-2xl font-bold mb-4">Watch: How I Made $1,821 in 6 Days</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-foreground">Watch: How I Made $1,821 in 6 Days</h3>
                     <p className="text-lg text-muted-foreground">See the exact trades and strategy revealed</p>
                   </div>
                 </div>
               ) : (
                 <div className="aspect-video bg-card flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-2xl font-bold mb-4">Video Coming Soon</div>
+                    <div className="text-2xl font-bold mb-4 text-foreground">Video Coming Soon</div>
                     <p className="text-muted-foreground">This is where your trading strategy video would play</p>
                   </div>
                 </div>
@@ -154,12 +154,12 @@ const Index = () => {
 
 
       {/* Final CTA Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-6 text-center max-w-4xl">
           <div className="space-y-8">
             {/* Compelling Headline */}
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-foreground">
                 It's like 'drive-thru options trading' with a 5-Star Experience.
               </h2>
             </div>
