@@ -23,7 +23,7 @@ const Index = () => {
         <div className="animate-pulse">
           <div className="text-center">
             <span className="inline-block bg-success-foreground text-success px-4 py-1 rounded-full text-sm font-semibold">
-              Madness Week Now Open!
+              The next Income Madness Week is Aug. 11-15! Register Now!
             </span>
           </div>
         </div>
