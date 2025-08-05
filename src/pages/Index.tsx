@@ -32,12 +32,6 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-background via-background to-muted/20 pt-12 pb-20">
         <div className="container mx-auto px-6 text-center max-w-6xl">
-          {/* Tagline */}
-          <div className="mb-8">
-            <p className="text-lg text-muted-foreground">
-              Join the next Income Madness Week Trade with us daily for a week
-            </p>
-          </div>
 
           {/* Main Headline - keeping exact copy */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-8 tracking-tight">
@@ -51,13 +45,7 @@ const Index = () => {
           {/* Subheadline */}
           <div className="mb-12 max-w-4xl mx-auto space-y-3">
             <p className="text-xl md:text-2xl font-medium text-foreground">
-              Join us daily at Noon for a week
-            </p>
-            <p className="text-xl md:text-2xl font-medium">
-              <span className="text-success italic">Leave With More Money</span>, Not Just More Notes.
-            </p>
-            <p className="text-lg font-medium text-success">
-              PLUS a game plan to keep going!
+              Join thousands of traders who've discovered the secret to consistent income generation in any market condition.
             </p>
           </div>
 
@@ -88,21 +76,6 @@ const Index = () => {
             </div>
           </div>
 
-          {/* CTA Section */}
-          <div className="space-y-6 mb-8">
-            <Button className="bg-success hover:bg-success/90 text-white text-lg px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
-              SECURE MY SEAT NOW
-            </Button>
-            
-            <p className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
-              <u>Or join from home as a virtual attendee</u>
-            </p>
-          </div>
-
-          {/* Urgency Message */}
-          <div className="inline-flex items-center bg-amber-50 text-amber-800 px-6 py-3 rounded-full text-sm font-medium border border-amber-200">
-            👉 LIMITED SEATING ~ ONLY 40 REMAIN!
-          </div>
         </div>
       </section>
 
