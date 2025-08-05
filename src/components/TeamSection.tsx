@@ -38,7 +38,7 @@ const TeamSection = () => {
                     <img 
                       src={member.image} 
                       alt={member.name}
-                      className="w-full aspect-square object-cover"
+                      className="w-full max-w-sm mx-auto aspect-square object-cover rounded-lg"
                     />
                   </div>
                   <div className={`p-8 ${index % 2 === 1 ? 'md:order-1' : ''}`}>

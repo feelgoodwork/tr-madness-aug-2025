@@ -12,9 +12,8 @@ import IncludedFeatures from '@/components/IncludedFeatures';
 const Index = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   
-  // Set countdown to 3 days from now
-  const countdownDate = new Date();
-  countdownDate.setDate(countdownDate.getDate() + 3);
+  // Set countdown to Sunday Aug. 10th midnight
+  const countdownDate = new Date('2024-08-11T00:00:00-04:00'); // Aug 10th midnight ET
 
   return (
     <div className="min-h-screen bg-background">
@@ -169,8 +168,7 @@ const Index = () => {
             <div>
               <p className="text-sm text-muted-foreground mb-2">Regular Price: $297</p>
               <div className="text-6xl md:text-7xl font-bold text-success mb-2">$197</div>
-              <p className="text-lg text-muted-foreground mb-1">Early Registration Price</p>
-              <p className="text-sm text-destructive font-medium">PRICING EXPIRES JULY 31st MIDNIGHT ET</p>
+              <p className="text-lg text-muted-foreground mb-1">One time non recurring price</p>
             </div>
 
             {/* Final CTA */}
@@ -181,6 +179,15 @@ const Index = () => {
               <p className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
                 <u>Or join from home as a virtual attendee</u>
               </p>
+            </div>
+            
+            {/* Bottom Countdown */}
+            <div className="text-center mt-16">
+              <h3 className="text-3xl font-bold mb-8 text-foreground">
+                The Next Income Madness Week Begins In:
+              </h3>
+              
+              <Countdown targetDate={countdownDate} />
             </div>
           </div>
         </div>
