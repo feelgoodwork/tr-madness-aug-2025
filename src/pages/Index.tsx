@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Play, ArrowRight } from 'lucide-react';
 import Countdown from '@/components/Countdown';
 import TradingResults from '@/components/TradingResults';
+import TeamSection from '@/components/TeamSection';
 import ProblemAwareness from '@/components/ProblemAwareness';
 import Solution from '@/components/Solution';
 import IncludedFeatures from '@/components/IncludedFeatures';
@@ -121,8 +122,10 @@ const Index = () => {
       >
         <div className="absolute inset-0 bg-white/98"></div>
         <div className="relative z-10">
-          <IncludedFeatures />
-        </div>
+      <IncludedFeatures />
+      
+      <TeamSection />
+    </div>
       </section>
 
       {/* Final CTA Section */}
