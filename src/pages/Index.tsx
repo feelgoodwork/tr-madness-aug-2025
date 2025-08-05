@@ -154,12 +154,6 @@ const Index = () => {
                 Join Income Madness Week - Save $100
                 <ArrowRight className="w-6 h-6 ml-2" />
               </Button>
-            
-            <div className="text-base text-secondary">
-              ✅ 30-day money-back guarantee<br />
-              ✅ Cancel anytime<br />
-              ✅ Instant access to all materials
-            </div>
           </div>
         </div>
       </section>

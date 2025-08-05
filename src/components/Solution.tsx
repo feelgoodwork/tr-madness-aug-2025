@@ -71,10 +71,10 @@ const Solution = () => {
 
       <Card className="bg-gradient-to-r from-success/5 to-primary/5 border-success/20">
         <CardHeader>
-          <CardTitle className="text-center text-2xl">What You Get With Traders Reserve</CardTitle>
+          <CardTitle className="text-center text-2xl">All Income Madness Weeks Include:</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-2">
             {features.map((feature, index) => (
               <div key={index} className="flex items-center space-x-3">
                 <CheckCircle className="w-5 h-5 text-success flex-shrink-0" />
@@ -89,15 +89,15 @@ const Solution = () => {
                 Limited Time: 50% Off
               </div>
               <div className="text-lg">
-                <span className="text-muted-foreground line-through">$297/month</span>
-                <span className="text-2xl font-bold text-success ml-4">$147/month</span>
+                <span className="text-muted-foreground line-through">$297</span>
+                <span className="text-2xl font-bold text-success ml-4">$197</span>
+              </div>
+              <div className="text-sm text-muted-foreground mb-4">
+                One-time payment • No recurring charges
               </div>
               <Button variant="cta" size="lg" className="text-lg px-8 py-4">
-                Join Traders Reserve Now
+                Join Income Madness Week - Save $100
               </Button>
-              <div className="text-sm text-muted-foreground">
-                30-day money-back guarantee • Cancel anytime
-              </div>
             </div>
           </div>
         </CardContent>
