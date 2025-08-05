@@ -21,16 +21,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-background via-background to-muted/20 pt-12 pb-20">
         <div className="container mx-auto px-6 text-center max-w-6xl">
-          {/* Brand Logo */}
+          {/* Tagline */}
           <div className="mb-8">
-            <div className="inline-block">
-              <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-amber-100 to-amber-200 rounded-full flex items-center justify-center border-4 border-amber-300">
-                <div className="text-2xl font-bold text-amber-800">IMW</div>
-              </div>
-              <div className="text-xs font-medium text-muted-foreground tracking-[0.2em] uppercase">
-                Income Madness Week
-              </div>
-            </div>
+            <p className="text-lg text-muted-foreground">
+              Join the next Income Madness Week Trade with us daily for a week
+            </p>
           </div>
 
           {/* Main Headline - keeping exact copy */}
@@ -78,14 +73,12 @@ const Index = () => {
                 <Clock className="w-8 h-8 mx-auto" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Daily Sessions</h3>
-              <p className="text-sm text-muted-foreground">Live trade execution</p>
+              <p className="text-sm text-muted-foreground">Noon ET</p>
             </div>
           </div>
 
           {/* CTA Section */}
           <div className="space-y-6 mb-8">
-            <p className="text-sm text-muted-foreground">🎯 Live and Virtual Tickets Available Now</p>
-            
             <Button className="bg-success hover:bg-success/90 text-white text-lg px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
               SECURE MY SEAT NOW
             </Button>
@@ -167,6 +160,25 @@ const Index = () => {
               )}
             </CardContent>
           </Card>
+          
+          {/* Countdown Section */}
+          <div className="text-center mt-16">
+            <h3 className="text-3xl font-bold mb-8 text-foreground">
+              The Next Income Madness Week Begins In:
+            </h3>
+            
+            <Countdown targetDate={countdownDate} />
+            
+            <div className="mt-8 space-y-4">
+              <Button className="bg-primary hover:bg-primary/90 text-white text-lg px-12 py-4 rounded-lg font-semibold">
+                Join Income Madness Week →
+              </Button>
+              
+              <p className="text-sm text-muted-foreground">
+                Over $100K made in Madness Weeks over ten years
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
