@@ -44,7 +44,7 @@ const Index = () => {
           {/* Subheadline */}
           <div className="mb-12 max-w-4xl mx-auto space-y-3">
             <p className="text-xl md:text-2xl font-medium text-foreground">
-              Join thousands of traders who've discovered the secret to consistent income generation in any market condition.
+              Join thousands of traders who've joined our INCOME MADNESS WEEK and done just that.
             </p>
           </div>
 
@@ -80,6 +80,7 @@ const Index = () => {
             <Button className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
               REGISTER NOW
             </Button>
+            <p className="text-sm text-muted-foreground mt-2">Income Madness Week Starts Monday Aug. 11</p>
           </div>
         </div>
       </section>
@@ -131,6 +132,7 @@ const Index = () => {
               <Button className="bg-primary hover:bg-primary/90 text-white text-lg px-12 py-4 rounded-lg font-semibold">
                 Join Income Madness Week →
               </Button>
+              <p className="text-sm text-muted-foreground">Income Madness Week Starts Monday Aug. 11</p>
               
               <p className="text-sm text-muted-foreground">
                 Over $100K made in Madness Weeks over ten years
@@ -176,6 +178,7 @@ const Index = () => {
               <Button className="bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
                 REGISTER NOW
               </Button>
+              <p className="text-sm text-muted-foreground">Income Madness Week Starts Monday Aug. 11</p>
             </div>
             
             {/* Bottom Countdown */}
