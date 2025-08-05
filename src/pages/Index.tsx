@@ -12,8 +12,8 @@ import IncludedFeatures from '@/components/IncludedFeatures';
 const Index = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   
-  // Set countdown to August 10th midnight EST
-  const countdownDate = new Date('2024-08-10T00:00:00-04:00'); // Aug 10th midnight EST
+  // Set countdown to August 10th, 2025 midnight EST
+  const countdownDate = new Date('2025-08-10T00:00:00-04:00'); // Aug 10th, 2025 midnight EST
 
   return (
     <div className="min-h-screen bg-background">
