@@ -78,7 +78,10 @@ const Index = () => {
 
           {/* Register Button */}
           <div className="text-center mb-8">
-            <Button className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
+            <Button 
+              className="bg-success hover:bg-success/90 text-white text-lg px-12 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
+              onClick={() => window.open('https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right', '_blank')}
+            >
               REGISTER NOW
             </Button>
             <p className="text-sm text-muted-foreground mt-2">Income Madness Week Starts Monday Aug. 11</p>
@@ -130,7 +133,10 @@ const Index = () => {
             <Countdown targetDate={countdownDate} />
             
             <div className="mt-8 space-y-4">
-              <Button className="bg-primary hover:bg-primary/90 text-white text-lg px-12 py-4 rounded-lg font-semibold">
+              <Button 
+                className="bg-primary hover:bg-primary/90 text-white text-lg px-12 py-4 rounded-lg font-semibold"
+                onClick={() => window.open('https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right', '_blank')}
+              >
                 Join Income Madness Week →
               </Button>
               <p className="text-sm text-muted-foreground">Income Madness Week Starts Monday Aug. 11</p>
@@ -179,7 +185,10 @@ const Index = () => {
 
             {/* Final CTA */}
             <div className="space-y-4">
-              <Button className="bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
+              <Button 
+                className="bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
+                onClick={() => window.open('https://tradersreserve.mysamcart.com/checkout/income-madness-week#samcart-slide-open-right', '_blank')}
+              >
                 REGISTER NOW
               </Button>
               <p className="text-sm text-muted-foreground">Income Madness Week Starts Monday Aug. 11</p>
