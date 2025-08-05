@@ -64,7 +64,7 @@ const IncludedFeatures = () => {
                     {feature.bullets.map((bullet, bulletIndex) => (
                       <li key={bulletIndex} className="flex items-start">
                         <span className="text-success mr-2 mt-1">•</span>
-                        <span className="text-sm text-muted-foreground">{bullet}</span>
+                        <span className="text-base text-muted-foreground">{bullet}</span>
                       </li>
                     ))}
                   </ul>

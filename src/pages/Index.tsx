@@ -26,7 +26,7 @@ const Index = () => {
       >
         <div className="absolute inset-0 bg-background/80"></div>
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-          <Badge variant="destructive" className="mb-6 text-sm px-4 py-2">
+          <Badge variant="destructive" className="mb-6 text-base px-4 py-2">
             🔥 REGISTER NOW - INCOME MADNESS WEEK EVENT
           </Badge>
           
@@ -82,7 +82,7 @@ const Index = () => {
               Join Income Madness Week
               <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
-            <div className="text-sm text-muted-foreground">
+            <div className="text-base text-muted-foreground">
               Over $100K made in Madness Weeks over ten years
             </div>
           </div>
@@ -135,7 +135,7 @@ const Index = () => {
                   <span className="text-muted-foreground line-through">$297</span>
                   <span className="text-3xl font-bold text-success ml-4">$197</span>
                 </div>
-                <div className="text-sm text-muted-foreground mt-2">
+                <div className="text-base text-muted-foreground mt-2">
                   One-time payment • No recurring charges
                 </div>
               </div>
@@ -145,7 +145,7 @@ const Index = () => {
                 <ArrowRight className="w-6 h-6 ml-2" />
               </Button>
             
-            <div className="text-sm text-muted-foreground">
+            <div className="text-base text-muted-foreground">
               ✅ 30-day money-back guarantee<br />
               ✅ Cancel anytime<br />
               ✅ Instant access to all materials
