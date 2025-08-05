@@ -40,7 +40,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-secondary mb-8 max-w-4xl mx-auto">
-            <strong>Aug 11-15 Income Made Week Live Trading</strong><br />
+            <strong>The next Income Madness Week is Aug. 11-15</strong><br />
             Get in now and trade with us daily
           </p>
 
