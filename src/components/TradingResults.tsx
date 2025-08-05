@@ -32,7 +32,20 @@ const TradingResults = () => {
   const winRate = Math.round((winningTrades / totalTrades) * 100);
 
   return (
-    <div className="space-y-6">
+    <div 
+      className="space-y-6 relative"
+      style={{
+        backgroundImage: `url(${tradingScreensBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      {/* Muted overlay to ensure text readability */}
+      <div className="absolute inset-0 bg-background/85 backdrop-blur-[1px]"></div>
+      
+      {/* Content with relative positioning to appear above background */}
+      <div className="relative z-10 space-y-6">
       <div className="text-center space-y-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           Real results from multiple Income Madness weeks over the years
@@ -126,6 +139,7 @@ const TradingResults = () => {
           </div>
         </CardContent>
         </Card>
+      </div>
     </div>
   );
 };
