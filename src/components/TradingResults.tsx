@@ -33,9 +33,9 @@ const TradingResults = () => {
   return (
     <div className="space-y-6">
       <div className="text-center space-y-4">
-        <p className="text-3xl md:text-4xl font-roboto font-bold text-primary">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           Real results from multiple Income Madness weeks over the years
-        </p>
+        </h2>
       </div>
 
       <div className="grid md:grid-cols-3 gap-6">

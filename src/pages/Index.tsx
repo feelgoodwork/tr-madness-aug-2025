@@ -158,6 +158,13 @@ const Index = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 text-center max-w-4xl">
           <div className="space-y-8">
+            {/* Compelling Headline */}
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                Ready to Generate Consistent Income?<br />Join the Next Madness Week
+              </h2>
+            </div>
+
             {/* Pricing */}
             <div>
               <p className="text-sm text-muted-foreground mb-2">Regular Price: $297</p>
@@ -169,7 +176,7 @@ const Index = () => {
             {/* Final CTA */}
             <div className="space-y-4">
               <Button className="bg-success hover:bg-success/90 text-white text-xl px-12 py-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
-                CLICK HERE TO RESERVE YOUR TICKET
+                REGISTER NOW
               </Button>
               <p className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
                 <u>Or join from home as a virtual attendee</u>
