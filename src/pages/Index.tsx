@@ -18,6 +18,17 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Top Announcement Bar */}
+      <div className="bg-success py-2 overflow-hidden">
+        <div className="animate-pulse">
+          <div className="text-center">
+            <span className="inline-block bg-success-foreground text-success px-4 py-1 rounded-full text-sm font-semibold">
+              Madness Week Now Open!
+            </span>
+          </div>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-background via-background to-muted/20 pt-12 pb-20">
         <div className="container mx-auto px-6 text-center max-w-6xl">
@@ -37,10 +48,10 @@ const Index = () => {
             in Just <span className="text-success">5 Days?</span>
           </h1>
           
-          {/* Subheadline - keeping exact copy */}
+          {/* Subheadline */}
           <div className="mb-12 max-w-4xl mx-auto space-y-3">
             <p className="text-xl md:text-2xl font-medium text-foreground">
-              Attend the Only Live Trading Event Where You Can
+              Join us daily at Noon for a week
             </p>
             <p className="text-xl md:text-2xl font-medium">
               <span className="text-success italic">Leave With More Money</span>, Not Just More Notes.
@@ -95,20 +106,12 @@ const Index = () => {
         </div>
       </section>
 
-
-      {/* Results Section */}
-      <section className="py-20 bg-muted/20">
-        <div className="container mx-auto px-6 max-w-6xl">
-          <TradingResults />
-        </div>
-      </section>
-
-      {/* Video Section */}
+      {/* Video Section - Moved up */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              This Is Your Best Chance to Trade Live and Leave With More Money Than You Came With
+              Don't want to trade daily? Try our Madness Week Method
             </h2>
           </div>
           
@@ -156,6 +159,13 @@ const Index = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Results Section */}
+      <section className="py-20 bg-muted/20">
+        <div className="container mx-auto px-6 max-w-6xl">
+          <TradingResults />
         </div>
       </section>
 
