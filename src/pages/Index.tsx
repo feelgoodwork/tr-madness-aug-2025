@@ -8,6 +8,7 @@ import TradingResults from '@/components/TradingResults';
 import TeamSection from '@/components/TeamSection';
 import Solution from '@/components/Solution';
 import IncludedFeatures from '@/components/IncludedFeatures';
+import FeaturesSection from '@/components/FeaturesSection';
 
 const Index = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -148,6 +149,9 @@ const Index = () => {
           <TradingResults />
         </div>
       </section>
+
+      {/* Features Section */}
+      <FeaturesSection />
 
       {/* Team Section */}
       <section className="py-20 bg-muted/20">
