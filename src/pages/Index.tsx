@@ -7,6 +7,7 @@ import Countdown from '@/components/Countdown';
 import TradingResults from '@/components/TradingResults';
 import ProblemAwareness from '@/components/ProblemAwareness';
 import Solution from '@/components/Solution';
+import IncludedFeatures from '@/components/IncludedFeatures';
 import heroImage from '@/assets/trading-hero-bg.jpg';
 
 const Index = () => {
@@ -107,6 +108,11 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <Solution />
         </div>
+      </section>
+
+      {/* Included Features Section */}
+      <section className="bg-card/30">
+        <IncludedFeatures />
       </section>
 
       {/* Final CTA Section */}
