@@ -18,8 +18,8 @@ const FeaturesSection = () => {
       additionalInfo: "Many of our trades will be closed before we meet for our next live trading session, so you'll get instant alerts when it's time to close a trade."
     },
     {
-      title: "Private Members Website",
-      description: "Your Income Madness Week event also includes our new Traders Reserve Pro community member's website, where you can:",
+      title: "TR Live Trading Site",
+      description: "Your Income Madness Week event also includes our new Traders Reserve LIVE community member's website, where you can:",
       image: membersWebsiteImage,
       bulletPoints: [
         "Get your trade alerts",
