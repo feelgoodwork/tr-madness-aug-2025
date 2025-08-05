@@ -64,6 +64,10 @@ export default {
 					DEFAULT: 'hsl(var(--loss))',
 					foreground: 'hsl(var(--loss-foreground))'
 				},
+				cta: {
+					DEFAULT: 'hsl(var(--cta))',
+					foreground: 'hsl(var(--cta-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -74,6 +78,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				sans: ["Arial", "sans-serif"],
+				roboto: ["Roboto", "Arial", "sans-serif"],
+				helvetica: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

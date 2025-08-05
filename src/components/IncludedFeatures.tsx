@@ -39,10 +39,10 @@ const IncludedFeatures = () => {
     <div className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-roboto font-bold mb-4 text-primary">
             Here's Everything You Get When You Reserve Your
           </h2>
-          <h3 className="text-2xl md:text-3xl font-bold text-success italic">
+          <h3 className="text-2xl md:text-3xl font-roboto font-bold text-success italic">
             Income Madness Week Seat
           </h3>
         </div>
@@ -57,14 +57,14 @@ const IncludedFeatures = () => {
                     <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                       <IconComponent className="w-8 h-8 text-primary" />
                     </div>
-                    <h4 className="text-xl font-bold text-primary">{feature.title}</h4>
+                    <h4 className="text-xl font-helvetica font-bold text-primary">{feature.title}</h4>
                   </div>
                   
                   <ul className="space-y-3">
                     {feature.bullets.map((bullet, bulletIndex) => (
                       <li key={bulletIndex} className="flex items-start">
                         <span className="text-success mr-2 mt-1">•</span>
-                        <span className="text-base text-muted-foreground">{bullet}</span>
+                        <span className="text-base text-secondary">{bullet}</span>
                       </li>
                     ))}
                   </ul>

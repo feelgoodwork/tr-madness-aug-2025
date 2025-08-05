@@ -18,19 +18,19 @@ const Index = () => {
   countdownDate.setDate(countdownDate.getDate() + 3);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section 
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-background/80"></div>
+        <div className="absolute inset-0 bg-white/95"></div>
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
           <Badge variant="destructive" className="mb-6 text-base px-4 py-2">
             🔥 REGISTER NOW - INCOME MADNESS WEEK EVENT
           </Badge>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-roboto font-bold mb-6 leading-tight text-primary">
             How Fast Could You
             <br />
             <span className="text-success">Earn $2,500</span>
@@ -38,7 +38,7 @@ const Index = () => {
             Trading Options?
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl text-secondary mb-8 max-w-4xl mx-auto">
             Join our live Income Madness Week (Aug 11-15) and discover the exact system that generated <strong className="text-success">$1,821 in 6 days</strong> 
             with an 85% win rate. Get in before the week starts!
           </p>
@@ -73,7 +73,7 @@ const Index = () => {
 
           {/* Countdown */}
           <div className="mb-8">
-            <h3 className="text-2xl font-bold mb-4 text-warning">The Next Income Madness Week Begins In:</h3>
+            <h3 className="text-2xl font-helvetica font-bold mb-4 text-warning">The Next Income Madness Week Begins In:</h3>
             <Countdown targetDate={countdownDate} />
           </div>
 
@@ -82,7 +82,7 @@ const Index = () => {
               Join Income Madness Week
               <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
-            <div className="text-base text-muted-foreground">
+            <div className="text-base text-secondary">
               Over $100K made in Madness Weeks over ten years
             </div>
           </div>
@@ -97,8 +97,12 @@ const Index = () => {
       </section>
 
       {/* Problem Awareness Section */}
-      <section className="py-20 px-6 bg-card/30">
-        <div className="max-w-6xl mx-auto">
+      <section 
+        className="py-20 px-6 bg-cover bg-center bg-no-repeat relative"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      >
+        <div className="absolute inset-0 bg-white/98"></div>
+        <div className="max-w-6xl mx-auto relative z-10">
           <ProblemAwareness />
         </div>
       </section>
@@ -111,17 +115,23 @@ const Index = () => {
       </section>
 
       {/* Included Features Section */}
-      <section className="bg-card/30">
-        <IncludedFeatures />
+      <section 
+        className="bg-cover bg-center bg-no-repeat relative"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      >
+        <div className="absolute inset-0 bg-white/98"></div>
+        <div className="relative z-10">
+          <IncludedFeatures />
+        </div>
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-success/10 to-primary/10">
+      <section className="py-20 px-6 bg-gradient-to-r from-accent/5 to-primary/5">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-roboto font-bold mb-6 text-primary">
             Ready to Transform Your Trading Results?
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">
+          <p className="text-xl text-secondary mb-8">
             Don't wait another day to start generating consistent income. 
             The next Income Madness challenge starts soon.
           </p>
@@ -132,10 +142,10 @@ const Index = () => {
                   Save $100 - Limited Time
                 </div>
                 <div className="text-lg">
-                  <span className="text-muted-foreground line-through">$297</span>
+                  <span className="text-secondary line-through">$297</span>
                   <span className="text-3xl font-bold text-success ml-4">$197</span>
                 </div>
-                <div className="text-base text-muted-foreground mt-2">
+                <div className="text-base text-secondary mt-2">
                   One-time payment • No recurring charges
                 </div>
               </div>
@@ -145,7 +155,7 @@ const Index = () => {
                 <ArrowRight className="w-6 h-6 ml-2" />
               </Button>
             
-            <div className="text-base text-muted-foreground">
+            <div className="text-base text-secondary">
               ✅ 30-day money-back guarantee<br />
               ✅ Cancel anytime<br />
               ✅ Instant access to all materials
