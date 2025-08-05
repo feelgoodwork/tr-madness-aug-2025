@@ -120,21 +120,24 @@ const Index = () => {
             The next Income Madness challenge starts soon.
           </p>
           
-          <div className="space-y-6">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-success mb-2">
-                50% OFF - Limited Time
+            <div className="space-y-6">
+              <div className="text-center">
+                <div className="text-4xl font-bold text-success mb-2">
+                  Save $100 - Limited Time
+                </div>
+                <div className="text-lg">
+                  <span className="text-muted-foreground line-through">$297</span>
+                  <span className="text-3xl font-bold text-success ml-4">$197</span>
+                </div>
+                <div className="text-sm text-muted-foreground mt-2">
+                  One-time payment • No recurring charges
+                </div>
               </div>
-              <div className="text-lg">
-                <span className="text-muted-foreground line-through">$297/month</span>
-                <span className="text-3xl font-bold text-success ml-4">$147/month</span>
-              </div>
-            </div>
-            
-            <Button variant="cta" size="lg" className="text-xl px-8 py-6">
-              Join Traders Reserve Now - Save $150
-              <ArrowRight className="w-6 h-6 ml-2" />
-            </Button>
+              
+              <Button variant="cta" size="lg" className="text-xl px-8 py-6">
+                Join Income Madness Week - Save $100
+                <ArrowRight className="w-6 h-6 ml-2" />
+              </Button>
             
             <div className="text-sm text-muted-foreground">
               ✅ 30-day money-back guarantee<br />
