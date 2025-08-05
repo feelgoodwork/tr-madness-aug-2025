@@ -5,33 +5,18 @@ const IncludedFeatures = () => {
   const features = [
     {
       icon: Monitor,
-      title: "4 Live Trading Webinars",
-      bullets: [
-        "2-3 trade recommendations daily",
-        "Complete trade details included",
-        "Live sessions at 12 Noon EST",
-        "30-minute focused sessions"
-      ]
+      title: "Daily Live Trading at Noon ET",
+      description: "Join us every day for live trading sessions where we execute real trades and share our strategy in real-time."
     },
     {
       icon: MessageCircle,
-      title: "Email and SMS Text Alerts",
-      bullets: [
-        "Never miss a trade opportunity",
-        "Instant alerts for trade entries",
-        "Real-time exit notifications",
-        "Works even if you miss live sessions"
-      ]
+      title: "Real-time trade alerts via email, SMS and inside the TRLive Platform",
+      description: "Never miss a trading opportunity with our comprehensive alert system that reaches you wherever you are."
     },
     {
       icon: Globe,
-      title: "Traders Reserve Live Platform",
-      bullets: [
-        "Access to exclusive community",
-        "Watch session replays anytime",
-        "Get help from expert traders",
-        "Common questions answered"
-      ]
+      title: "Live support from our team",
+      description: "Get direct access to our expert trading team for guidance, questions, and support throughout the week."
     }
   ];
 
@@ -40,11 +25,8 @@ const IncludedFeatures = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-roboto font-bold mb-4 text-primary">
-            Here's Everything You Get When You Reserve Your
+            All Income Madness Weeks Include:
           </h2>
-          <h3 className="text-2xl md:text-3xl font-roboto font-bold text-success italic">
-            Income Madness Week Seat
-          </h3>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -57,17 +39,10 @@ const IncludedFeatures = () => {
                     <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                       <IconComponent className="w-8 h-8 text-primary" />
                     </div>
-                    <h4 className="text-xl font-helvetica font-bold text-primary">{feature.title}</h4>
+                    <h4 className="text-xl font-helvetica font-bold text-primary mb-4">{feature.title}</h4>
                   </div>
                   
-                  <ul className="space-y-3">
-                    {feature.bullets.map((bullet, bulletIndex) => (
-                      <li key={bulletIndex} className="flex items-start">
-                        <span className="text-success mr-2 mt-1">•</span>
-                        <span className="text-base text-secondary">{bullet}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <p className="text-base text-secondary leading-relaxed">{feature.description}</p>
                 </CardContent>
               </Card>
             );

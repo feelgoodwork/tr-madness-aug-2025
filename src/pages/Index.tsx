@@ -95,29 +95,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6 text-center max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-16 text-foreground">
-            How You Will Profit During The Income Madness Week Event
-          </h2>
-          
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="space-y-3">
-              <h3 className="text-lg font-semibold">Get Daily, Weekly and Monthly Income</h3>
-            </div>
-            <div className="space-y-3">
-              <h3 className="text-lg font-semibold">Master Simple Tactics Using 1- to 30-Day Trades</h3>
-            </div>
-            <div className="space-y-3">
-              <h3 className="text-lg font-semibold">Keep Your Trading Time to a Minimum</h3>
-            </div>
-            <div className="space-y-3">
-              <h3 className="text-lg font-semibold">Goal $2,500 to $5,000 Income from the Event</h3>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Results Section */}
       <section className="py-20 bg-muted/20">

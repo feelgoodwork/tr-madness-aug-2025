@@ -4,7 +4,7 @@ const TeamSection = () => {
   const teamMembers = [
     {
       name: "David Durham",
-      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=300&h=300&fit=crop&crop=face",
+      image: "/lovable-uploads/369b5521-95e6-428a-8ff6-3d8744067417.png",
       description: [
         "With more than 35 years of options trading and investing expertise, David is the originator of the Income Madness Week concept.",
         "During Income Madness, you'll learn with Dave as he shows you how to identify the best trade opportunities to generate income in 1 to 3 days and the right way to sell options on those trades so you can get that income!"
@@ -12,7 +12,7 @@ const TeamSection = () => {
     },
     {
       name: "Emily Norris",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=300&fit=crop&crop=face",
+      image: "/lovable-uploads/2511ea4f-7db8-4311-b513-ff3ecee14b50.png",
       description: [
         "With more than 20 years of options trading and investing expertise, Emily has led the Income Madness Week events since 2016.",
         "During Income Madness, Emily hosts the live trading sessions, tracks and manages the trade recommendations and keeps you up to date with ongoing alerts during the Income Madness Week event."
